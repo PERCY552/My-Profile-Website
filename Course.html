@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>IT TRAINING CENTER</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/TECHNOLOGIES-fococlipping-standard.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="Mysite.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Trainings</h1>
+
+    </section>
+
+    <!-------our Trainings------>
+
+    <section class="course">
+        <h1>Trainings We Offer</h1>
+        <p>At MT Technologies we offer the following Trainings or Practicals</p>
+
+        <div class = "row">
+            <div class="course-col">
+                <h3>Learnership</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aliquam repellendus dolor </p>
+            </div>
+            <div class="course-col">
+                <h3>Internship</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aliquam repellendus dolor </p>
+            </div>
+            <div class="course-col">
+                <h3>Apprenticeship</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aliquam repellendus dolor </p>
+            </div>
+
+        </div>
+        
+       
+    </section>
+
+    <!----Our traning Centers-->
+    <section class="Campus">
+        <h1>Our Training Centers</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius rerum voluptatum delectus doloribus quos nulla odio repudiandae beatae</p>
+
+        <div class="row">
+            <div class="Campus-col">
+                <img src="images/POLOKWANE.jpg">
+                <div class="layer">
+                    <h3>POLOKWANE</h3>
+                </div>
+            </div>
+            <div class="Campus-col">
+                <img src="images/PRETORIA.jpeg">
+                <div class="layer">
+                    <h3>PRETORIA</h3>
+                </div>
+            </div>
+            <div class="Campus-col">
+                <img src="images/SANDTON.jpg">
+                <div class="layer">
+                    <h3>CAPE TOWN</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+   
+
+   
+
+    
+
+   
+    
+
+
+    <!-------footer------->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>They are encouraged to think deeply about new Digital Products that will improve their world and are allowed to explore and <br>create these products while they spend a year with empowering the youth 2022 program.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-building"></i> MT TECHNOLOGIES</p>
+    </section>
+
+
+
+
+
+    <!---------below is a javaScript code for toggle menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+    </script>
+</body>
+</html>

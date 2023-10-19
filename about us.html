@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>IT TRAINING CENTER</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/TECHNOLOGIES-fococlipping-standard.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="Mysite.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!------about us content------>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the no.1 training center in Africa</h1>
+                <p>MT TECHNOLOGIES is a Non-Profit Organization dedicated to creating an environment for young people who aspire to become software developer,Network Engieer and Robotics Assembler , also are passionate about the craft; in fact, <br> they aee obsessed with it.They are encouraged to think deeply about new Digital Products that will improve their world and are allowed to explore and
+                    create these products while they spend a year with empowering the youth 2022 program.<br> As a team leader we have developed a program of flexible working initiative to give our team members, many of whom are women, the ability to permanently work from home uo to 3 days a week.The team then only only come into the office on a friday</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="images/hh.jpg">
+            </div>
+            
+        </div>
+    </section>
+   
+
+   
+
+    
+
+   
+    
+
+
+    <!-------footer------->
+    
+    <section class="footer">
+        <h4>About us</h4>
+        <p>They are encouraged to think deeply about new Digital Products that will improve their world and are allowed to explore and <br>create these products while they spend a year with empowering the youth 2022 program.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-building"></i> MT TECHNOLOGIES</p>
+    </section>
+
+
+
+
+
+    <!---------below is a javaScript code for toggle menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+    </script>
+</body>
+</html>

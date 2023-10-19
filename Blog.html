@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>IT TRAINING CENTER</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/TECHNOLOGIES-fococlipping-standard.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="Mysite.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Blog</h1>
+
+    </section>
+
+    <!------blog content-->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/heritage-e1442929160909.jpg">
+                <h2>Our Youth & Technology</h2>
+                <p>One of the key experiences recommended during your time as an undergraduate is doing an internship. Gaining work experience is key for boosting your employability, especially as a business student. That’s why, after my second year at Hult, I chose to go back home to the Democratic Republic of the Congo, to intern for a part of the summer.
+
+                    I undertook a six-week internship at a local bank, called Rawbank. I was one of about thirty university-level interns—what they referred to as “academic interns.” Myself and my fellow academic interns were not there in the hopes of getting a job with the bank later, but rather we were there to learn and understand the inner functioning of a bank.
+                    
+                    Rawbank is one of the biggest commercial banks in the country, with multiple big clients. So the first thing we had to do was sign non-disclosure agreements to make sure that the privacy and anonymity of their clients were maintained. After that, we were assigned a supervisor. We were expected to report back to our supervisor at the end of each week</p>
+                <br>
+                <p>At the start of each week, we were sent to a new department where we were briefed and given a person to shadow. During the shadowing, we mostly took notes and were given small tasks or errands to run..</p>
+                <br>
+                <p>Thanks to the classes I had already taken at Hult, after two weeks I was assigned to a “permanent” position at the front office of the bank, where I dealt with small daily operations such as check deposits, withdrawal slips and such.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Full Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">INTERN COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Youth Programs</h3>
+                <div>
+                    <span>SOFTWARE DEVELOPMENT</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>NETWORK ENGIEENIER</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>GRAPHIC DESIGNER</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>TELECOMMUNUCATION</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>CYBER SECURITY</span>
+                    <span>42</span>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+
+
+   
+
+   
+
+    
+
+   
+    
+
+
+    <!-------footer------->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>They are encouraged to think deeply about new Digital Products that will improve their world and are allowed to explore and <br>create these products while they spend a year with empowering the youth 2022 program.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-building"></i> MT TECHNOLOGIES</p>
+    </section>
+
+
+
+
+
+    <!---------below is a javaScript code for toggle menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+    </script>
+</body>
+</html>
